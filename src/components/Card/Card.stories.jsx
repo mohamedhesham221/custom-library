@@ -27,7 +27,7 @@ Default.args = {
 
 export const WithImage = Template.bind({});
 WithImage.args = {
-  image: 'https://via.placeholder.com/300x200',
+  image: 'https://placehold.co/600x400',
   title: 'Card with Image',
   description: 'This card includes an image at the top.',
 };
@@ -41,7 +41,7 @@ WithFooter.args = {
 
 export const ProductCard = Template.bind({});
 ProductCard.args = {
-  image: 'https://via.placeholder.com/300x200',
+  image: 'https://placehold.co/600x400',
   title: 'Product Name',
   description: 'Product description goes here. This is a sample product card.',
   footer: (
@@ -56,7 +56,7 @@ ProductCard.args = {
 
 export const ProfileCard = Template.bind({});
 ProfileCard.args = {
-  image: 'https://via.placeholder.com/300x300',
+  image: 'https://avatar.iran.liara.run/public/boy',
   title: 'John Doe',
   description: 'Software Developer | React Enthusiast',
   footer: (
