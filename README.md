@@ -5,6 +5,7 @@ A collection of reusable React components for building modern web applications.
 ## Components
 
 ### Button
+
 A versatile button component with support for different variants, sizes, and icons.
 
 ```jsx
@@ -32,6 +33,7 @@ import Button from './components/Button/Button';
 ```
 
 ### Input
+
 A flexible input component with support for labels, error states, and validation.
 
 ```jsx
@@ -62,6 +64,7 @@ import Input from './components/Input/Input';
 ```
 
 ### Card
+
 A card component for displaying content in a structured format.
 
 ```jsx
@@ -102,6 +105,7 @@ import Card from './components/Card/Card';
 ```
 
 ### Modal
+
 A modal component for displaying content in an overlay.
 
 ```jsx
@@ -125,6 +129,7 @@ const [isOpen, setIsOpen] = useState(false);
 ```
 
 ### Toast
+
 A toast component for displaying notifications.
 
 ```jsx
@@ -151,16 +156,19 @@ const addMessage = (type) => {
 ## Getting Started
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Start the development server:
+
 ```bash
 npm run dev
 ```
 
 3. View the Storybook documentation:
+
 ```bash
 npm run storybook
 ```
@@ -173,15 +181,3 @@ npm run storybook
 - TypeScript support
 - Storybook documentation
 - Emotion for styling
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
